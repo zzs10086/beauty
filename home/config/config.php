@@ -14,10 +14,10 @@ $config = [
      'controllerNamespace' => 'home\controllers',
      //'layout' => null,
      'components' => [
-        /*  'assetManager' => [
+          'assetManager' => [
                'basePath' => '@home/web/static',
                'baseUrl' => '@home/web/static'
-          ],*/
+          ],
           'request' => [
                'csrfParam' => '_csrf-home',
                // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation

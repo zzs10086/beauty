@@ -9,7 +9,7 @@
 class BEnv{
 
      //数据库设置
-     const DB_HOST_MASTER = '127.0.0.1';
+     const DB_HOST_MASTER = 'localhost';
      const DB_USER = 'root';
      const DB_PASS = 'root';
      const DB_PORT = '3306';

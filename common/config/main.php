@@ -1,11 +1,12 @@
 <?php
+require(__DIR__ . '/../components/BEnv.php');
 return [
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'components' => [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
-        /*'db' => [
+        'db' => [
               'class' => 'yii\db\Connection',
               'charset' => BEnv::DB_CHARSET,
               //'tablePrefix' =>CEnv::DB_TABLEPREFIX, //model中添加了表名，这边不用设置表前缀了
@@ -26,6 +27,6 @@ return [
                    ['dsn' => 'mysql:host=' . BEnv::DB_HOST_SLAVE . ':' . BEnv::DB_PORT . ';dbname=' . BEnv::DB_DBNAME],
               ],
 
-         ],*/
+         ],
     ],
 ];
